@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>calc</title>
+</head>
+<body>
+    <input id="first" type="number"placeholder="enter first number">
+    <input id="second" type="number"placeholder="enter second number">
+
+    <div>
+    <button onclick="add()">add</button>
+    <button onclick="subtract()">subtract</button>
+    <button onclick="multiply()">multiply</button>
+    <button onclick="divide()">divide</button>
+    
+
+    </div>
+   
+    
+</body>
+</html>
+<script>
+    function add(){
+       let a= document.getElementById("first").value
+       let b= document.getElementById("second").value
+       alert(a+b)
+
+
+
+    }
+    function subtract(){
+       let a= document.getElementById("first").value
+       let b= document.getElementById("second").value
+       alert(a-b)
+
+
+
+    }
+    function multiply(){
+       let a= document.getElementById("first").value
+       let b= document.getElementById("second").value
+       alert(a*b)
+
+
+
+    }
+    function divide(){
+       let a= document.getElementById("first").value
+       let b= document.getElementById("second").value
+       alert(a/b)
+
+
+
+    }
+</script>
